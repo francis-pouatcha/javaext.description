@@ -19,7 +19,7 @@ public @interface Association {
 	 * by the referencing entity.
 	 * @return
 	 */
-	public String[] fields();
+	public String[] fields() default {};
 	
 	public SelectionMode selectionMode() default SelectionMode.FORWARD;
 }
