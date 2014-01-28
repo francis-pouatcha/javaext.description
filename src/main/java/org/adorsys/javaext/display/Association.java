@@ -22,4 +22,8 @@ public @interface Association {
 	public String[] fields() default {};
 	
 	public SelectionMode selectionMode() default SelectionMode.FORWARD;
+	
+	public AssociationType associationType() default AssociationType.AGGREGATION;
+	
+	public Class<?> targetEntity();
 }

@@ -2,7 +2,8 @@ package org.adorsys.javaext.display;
 
 /**
  * This will tell the processor how to organize selection of the 
- * referenced entity.
+ * referenced entity in the case of aggregate relationships or the 
+ * creation of a new instance in the case of composite relationships.
  * 
  * @author francis
  *
