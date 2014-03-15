@@ -21,6 +21,6 @@ public @interface PermissionTable {
 	String permissionActionField();
 	
 	String permissionNameField();
-	
+
 	Class<?> actionEnumClass();
 }
