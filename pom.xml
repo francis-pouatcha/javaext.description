@@ -16,4 +16,14 @@
 			<version>1.0-SP4</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+                <repository>
+                        <id>ft-releases</id>
+                        <url>http://ft-build.adorsys.de:8081/nexus/content/repositories/ft-releases/</url>
+                </repository>
+                <snapshotRepository>
+                        <id>ft-snapshots</id>
+                        <url>http://ft-build.adorsys.de:8081/nexus/content/repositories/ft-snapshots/</url>
+                </snapshotRepository>
+        </distributionManagement>
 </project>
