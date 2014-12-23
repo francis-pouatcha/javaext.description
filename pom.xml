@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.adorsys.javaext</groupId>
 	<artifactId>javaext.description</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>Javaext Description Annotation</name>
 	<description>Description annotation for Java Types and Field</description>
 	<dependencies>
@@ -28,7 +28,8 @@
 		<connection>scm:git:https://github.com/francis-pouatcha/javaext.description.git</connection>
 		<url>scm:git:https://github.com/francis-pouatcha/javaext.description.git</url>
 		<developerConnection>scm:git:https://github.com/francis-pouatcha/javaext.description.git</developerConnection>
-	</scm>
+	  <tag>javaext.description-0.0.3</tag>
+  </scm>
 	<build>
 		<plugins>
 			<plugin>
