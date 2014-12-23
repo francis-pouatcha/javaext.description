@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.adorsys.javaext</groupId>
 	<artifactId>javaext.description</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>Javaext Description Annotation</name>
 	<description>Description annotation for Java Types and Field</description>
 	<dependencies>
